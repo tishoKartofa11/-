@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  justify-content: flex-start; /* keep it on the left */
+  padding-left: 20px; /* add some space from the left edge */
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+
+.button1 {
+  background-color: brown;
+  border: none;
+  padding:5px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  /* 👇 move it slightly higher */
+ /* margin-top: -10px; /* you can try -8px or -10px too */
+}
+
+.button2 {
+    background-color: brown;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button3 {
+      background-color: brown;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button1 a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.button2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.button3 a {
+ text-decoration: none;
+    color: white;
+    font-weight: bold;
+}   
+
+header {
+    background-color: tomato;
+}
+
+.nazadSSN {
+       background-color: brown;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nazadSSN a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+}
